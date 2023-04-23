@@ -11983,6 +11983,10 @@ a.theme-btn-on-bg:active,
     border-radius: 50%
 }
 
+.resume-timeline-item {
+    margin-bottom  : 35px;
+}
+
 .resume-progress {
     height: 0.6rem
 }
@@ -12745,3 +12749,4 @@ body {
 .config-panel .close .fa {
     color: #fff
 }
+
