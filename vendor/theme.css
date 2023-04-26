@@ -5442,6 +5442,12 @@ a.badge-primary.focus {
     background-color: #58677c
 }
 
+@media print {
+    .badge-secondary {
+        color : #000
+    }    
+}
+
 a.badge-secondary:hover,
 a.badge-secondary:focus {
     color           : #fff;
@@ -8869,7 +8875,8 @@ button.bg-dark:focus {
 
 @media print {
     .p-5 {
-        padding: 0 !important
+        padding: 0 !important;
+        padding-top: 2rem !important
     }   
 }
 
@@ -10903,6 +10910,12 @@ button.bg-dark:focus {
     color: #fff !important
 }
 
+@media print {
+    .text-white {
+        color: #000 !important
+    }    
+}
+
 .text-primary {
     color: #41A4F5 !important
 }
@@ -11987,6 +12000,16 @@ a.theme-btn-on-bg:active,
     color: #58677c
 }
 
+@media print {
+    .resume-section-title {
+        color    : #000
+    }
+    
+    .resume-section-content {
+        color: #000
+    }    
+}
+
 .resume-timeline {
     padding-left: 2rem
 }
@@ -12039,6 +12062,16 @@ a.theme-btn-on-bg:active,
     color    : #434E5E
 }
 
+@media print {
+    .resume-company-name {
+        color: #000
+    }
+
+    .resume-position-title {
+        color: #000
+    }    
+}
+
 .resume-timeline-item-desc {
     font-size: 0.9rem
 }
@@ -12059,6 +12092,20 @@ a.theme-btn-on-bg:active,
 
 .resume-degree {
     color: #434E5E
+}
+
+@media print {
+    .resume-skills-cat {
+        color: #000
+    }
+
+    .resume-skill-name {
+        color: #000
+    }    
+
+    .resume-degree {
+        color: #000
+    }
 }
 
 .resume-degree-org {
@@ -12087,6 +12134,12 @@ a.theme-btn-on-bg:active,
 
 .resume-lang-name {
     color: #434E5E
+}
+
+@media print {
+    .resume-lang-name {
+        color: #000
+    }    
 }
 
 .speech-bubble {
