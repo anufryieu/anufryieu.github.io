@@ -8513,6 +8513,12 @@ button.bg-dark:focus {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important
 }
 
+@media print {
+    .shadow-lg {
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important
+    }
+}
+
 .shadow-none {
     box-shadow: none !important
 }
