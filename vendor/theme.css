@@ -8867,6 +8867,12 @@ button.bg-dark:focus {
     padding: 3rem !important
 }
 
+@media print {
+    .p-5 {
+        padding: 0 !important
+    }   
+}
+
 .pt-5,
 .py-5 {
     padding-top: 3rem !important
@@ -11895,6 +11901,13 @@ a.theme-btn-on-bg:active,
     padding-bottom: 50px
 }
 
+@media print {
+    .resume-wrapper {
+        margin-top    : 0;
+        padding-bottom: 0
+    }   
+}
+
 .resume-wrapper-inner {
     max-width: 1000px
 }
@@ -11903,6 +11916,12 @@ a.theme-btn-on-bg:active,
     background: #434E5E;
     color     : rgba(255, 255, 255, 0.9);
     height    : 220px
+}
+
+@media print {
+    .resume-header {
+        color     : #000 !important
+    }
 }
 
 .resume-header .picture {
@@ -11921,6 +11940,13 @@ a.theme-btn-on-bg:active,
 
 .resume-header a {
     color: rgba(255, 255, 255, 0.6)
+}
+
+@media print {
+    .resume-header a {
+        color     : #000;
+        text-decoration: none
+    }
 }
 
 .resume-header a:hover {
@@ -12011,6 +12037,10 @@ a.theme-btn-on-bg:active,
 .resume-position-title {
     font-size: 1.125rem;
     color    : #434E5E
+}
+
+.resume-timeline-item-desc {
+    font-size: 0.9rem
 }
 
 .resume-timeline-item-desc-heading {
