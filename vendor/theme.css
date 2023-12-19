@@ -12903,7 +12903,6 @@ body {
 
 .pdf-link {
     position: relative;
-    top: -30px;
-    right: 10px;
+    top: -1.5rem;
 }
 
