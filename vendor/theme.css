@@ -11962,7 +11962,11 @@ a.theme-btn-on-bg:active,
     .resume-wrapper {
         margin-top    : 0;
         padding-bottom: 0
-    }   
+    }
+
+    .consent {
+        margin-top    : 30px;
+    }
 }
 
 .resume-wrapper-inner {
@@ -12100,6 +12104,14 @@ a.theme-btn-on-bg:active,
     .resume-timeline:before {
         width        : 0px;
         height       : 0px;
+    }
+
+    .resume-timeline .technologies {
+        display: none
+    }
+
+    .resume-timeline .technologies + ul {
+        margin-top: 5px;
     }
 }
 
